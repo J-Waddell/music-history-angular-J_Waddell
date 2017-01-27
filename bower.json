@@ -1,0 +1,22 @@
+{
+  "name": "music-history-angular",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "^1.1.1",
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-aria": "^1.6.1",
+    "angular-messages": "^1.6.1",
+    "angular-route": "^1.6.1"
+  }
+}
