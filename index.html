@@ -11,19 +11,37 @@
 
 </head>
 <body>
-<h1>Music</h1>
+    
+    <h1>Music</h1>
 
 <div class="container">
-    <div ng-app="musicHist">
+    <div ng-app="musicHistApp">
+
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                    <i class="material-icons"></i>
+                </label>
+                <div layout="row" layout-align="start end">
+                    <div class="mdl-textfield__expandable-holder" layout-align>
+                        <md-input-container layout-flex>
+                        <label>Search My Songs</label>
+                        <input type="text" ng-model="pinSearch" class="search">
+                        <label class="mdl-textfield__label" for="sample-expandable"></label>
+                        <md-button type="submit" ng-click="pinSearch" class="btn1" value=""> Search </md-button>
+                        </md-input-container>
+                    </div>
+                </div>
+              </div>
+
         <div ng-view></div>
     </div>
 </div>
 
+<script src="/bower_components/angular/angular.min.js"></script>
 <script src="/bower_components/angular-messages/angular-messages.min.js"></script>
 <script src="/bower_components/angular-material/angular-material.min.js"></script>
 <script src="/bower_components/angular-aria/angular-aria.min.js"></script>
 <script src="/bower_components/angular-animate/angular-animate.min.js"></script>
-<script src="/bower_components/angular/angular.min.js"></script>
 <script src="/bower_components/angular-route/angular-route.min.js"></script>
 <script src="/main.js"></script>
 </body>
