@@ -1,7 +1,8 @@
 console.log('Taters')
 
 const app = angular.module('musicHistApp', ['ngRoute', 'ngMaterial'])
-    .config(($routeProvider) => {
+    .config(($routeProvider, $locationProvider) => {
+        $locationProvider.hashPrefix('')
         $routeProvider
             .when('/', {
                 controller: 'RootCtrl',
