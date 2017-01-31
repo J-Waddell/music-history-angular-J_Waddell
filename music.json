@@ -1,0 +1,20 @@
+{
+    "music" : [
+        {
+            "crazy": {
+                "description": "This is one of Seal's biggest hits or craze."
+            }
+        },
+        {
+            "Fly Like an Eagle": {
+                "description": "This song is featured in one of my favorite movies.. Space Jam!"
+            }
+
+        },
+        {
+            "They Don't Care About Us": {
+                "description": "Michael Jackson's message really spoke out in this track, one of the best."
+            }
+        }
+    ]
+}

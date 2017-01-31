@@ -1,0 +1,23 @@
+
+<div layout="column" layout-align="end end">
+    <form ng-submit="gotoMusic()">
+        <div class="mdl-textfield__expandable-holder" layout-align>
+            <md-input-container layout-flex>
+            <label for="songz">Type in Song Title for Description</label>
+            <input type="text" ng-model="songz" ng-value=" " class="search">
+            <label class="mdl-textfield__label" for="sample-expandable"></label>
+            <a href="http://localhost:8080/#/details">
+            <md-button type="submit" ng-click="pinSearch" class="btn1" value="">GET</md-button>
+            </a>
+            </md-input-container>
+        </div>
+    </form>
+</div>
+
+<h1>Song List:</h1>
+    
+    <ul ng-repeat="list in title | filter : music">
+        <li ng-repeat="(key, value) in list">
+            <h3>{{key | uppercase}}</h3>
+        </li>
+    </ul>
