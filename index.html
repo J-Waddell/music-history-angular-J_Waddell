@@ -12,27 +12,9 @@
 </head>
 <body>
     
-    <h1>Music</h1>
 
 <div class="container">
     <div ng-app="musicHistApp">
-
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-                <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
-                    <i class="material-icons"></i>
-                </label>
-                <div layout="row" layout-align="start end">
-                    <div class="mdl-textfield__expandable-holder" layout-align>
-                        <md-input-container layout-flex>
-                        <label>Search My Songs</label>
-                        <input type="text" ng-model="pinSearch" class="search">
-                        <label class="mdl-textfield__label" for="sample-expandable"></label>
-                        <md-button type="submit" ng-click="pinSearch" class="btn1" value=""> Search </md-button>
-                        </md-input-container>
-                    </div>
-                </div>
-              </div>
-
         <div ng-view></div>
     </div>
 </div>
