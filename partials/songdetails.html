@@ -1,5 +1,5 @@
-<ul>
-    <li>
+<ul ng-repeat="list in title | filter : music">
+    <li ng-repeat="(key, value) in list">
         <h4>{{value.description}}</h4>
     </li>
 </ul>

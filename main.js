@@ -16,7 +16,7 @@ const app = angular.module('musicHistApp', ['ngRoute', 'ngMaterial'])
     .controller('RootCtrl', function($scope, $location, $http) {
         console.log('RootCtrl')
         $scope.gotoMusic = () => {
-            $scope.gotoMusic = () => $location.url(`/music/${$scope.music}`)
+            $scope.gotoMusic = () => $location.url(`/details`)
         }
     })
 
